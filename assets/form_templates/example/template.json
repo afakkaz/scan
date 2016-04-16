@@ -1,2919 +1,2939 @@
 {
-  "height": 1088,
-  "width": 832,
-  "classifier": {
-    "classification_map": {
-      "empty": false
-    },
-    "default_classification": true,
-    "training_data_uri": "bubbles",
-    "classifier_height": 16,
-    "classifier_width": 14,
-    "alignment_radius": 2,
-    "advanced": {
-      "flip_training_data": true
-    }
-  },
-  "fields": [
-    {
-      "type": "qrcode",
-      "name": "qrcode",
-      "param": "This text is encoded in the QR code.",
-      "__rowNum__": 3,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 36,
-          "segment_y": 91,
-          "segment_width": 106,
-          "segment_height": 106
-        }
-      ],
-      "label": ""
-    },
-    {
-      "type": "int",
-      "name": "stay",
-      "label": "Length of Stay (days):",
-      "default": 2,
-      "__originalType__": "integer",
-      "__rowNum__": 4,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 36,
-          "segment_y": 257,
-          "segment_width": 106,
-          "segment_height": 28
-        }
-      ]
-    },
-    {
-      "type": "string",
-      "name": "name",
-      "label": "Name:",
-      "param": "14",
-      "__combineSegments__": true,
-      "delimiter": "",
-      "__rowNum__": 6,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 166,
-          "segment_y": 107,
-          "segment_width": 329,
-          "segment_height": 513,
-          "items": [
-            {
-              "item_x": 32,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 32,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 32,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 32,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 32,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 32,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 32,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 32,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 32,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 32,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 32,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 32,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 32,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 32,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 32,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 32,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 32,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 32,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 32,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 32,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 32,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 32,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 32,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 32,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 32,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 32,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 32,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 54,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 54,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 54,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 54,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 54,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 54,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 54,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 54,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 54,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 54,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 54,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 54,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 54,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 54,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 54,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 54,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 54,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 54,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 54,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 54,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 54,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 54,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 54,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 54,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 54,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 54,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 54,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 76,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 76,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 76,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 76,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 76,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 76,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 76,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 76,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 76,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 76,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 76,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 76,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 76,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 76,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 76,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 76,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 76,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 76,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 76,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 76,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 76,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 76,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 76,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 76,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 76,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 76,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 76,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 98,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 98,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 98,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 98,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 98,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 98,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 98,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 98,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 98,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 98,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 98,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 98,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 98,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 98,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 98,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 98,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 98,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 98,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 98,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 98,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 98,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 98,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 98,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 98,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 98,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 98,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 98,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 120,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 120,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 120,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 120,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 120,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 120,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 120,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 120,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 120,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 120,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 120,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 120,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 120,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 120,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 120,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 120,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 120,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 120,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 120,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 120,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 120,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 120,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 120,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 120,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 120,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 120,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 120,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 142,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 142,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 142,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 142,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 142,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 142,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 142,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 142,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 142,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 142,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 142,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 142,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 142,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 142,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 142,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 142,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 142,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 142,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 142,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 142,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 142,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 142,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 142,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 142,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 142,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 142,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 142,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 164,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 164,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 164,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 164,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 164,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 164,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 164,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 164,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 164,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 164,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 164,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 164,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 164,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 164,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 164,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 164,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 164,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 164,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 164,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 164,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 164,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 164,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 164,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 164,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 164,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 164,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 164,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 186,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 186,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 186,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 186,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 186,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 186,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 186,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 186,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 186,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 186,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 186,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 186,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 186,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 186,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 186,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 186,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 186,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 186,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 186,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 186,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 186,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 186,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 186,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 186,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 186,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 186,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 186,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 208,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 208,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 208,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 208,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 208,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 208,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 208,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 208,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 208,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 208,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 208,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 208,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 208,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 208,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 208,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 208,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 208,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 208,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 208,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 208,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 208,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 208,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 208,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 208,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 208,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 208,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 208,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 230,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 230,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 230,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 230,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 230,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 230,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 230,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 230,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 230,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 230,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 230,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 230,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 230,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 230,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 230,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 230,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 230,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 230,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 230,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 230,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 230,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 230,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 230,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 230,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 230,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 230,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 230,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 252,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 252,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 252,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 252,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 252,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 252,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 252,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 252,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 252,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 252,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 252,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 252,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 252,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 252,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 252,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 252,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 252,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 252,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 252,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 252,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 252,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 252,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 252,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 252,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 252,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 252,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 252,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 274,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 274,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 274,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 274,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 274,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 274,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 274,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 274,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 274,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 274,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 274,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 274,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 274,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 274,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 274,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 274,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 274,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 274,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 274,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 274,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 274,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 274,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 274,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 274,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 274,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 274,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 274,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 296,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 296,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 296,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 296,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 296,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 296,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 296,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 296,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 296,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 296,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 296,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 296,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 296,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 296,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 296,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 296,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 296,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 296,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 296,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 296,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 296,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 296,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 296,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 296,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 296,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 296,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 296,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            },
-            {
-              "item_x": 318,
-              "item_y": 30.5,
-              "label": " ",
-              "value": " "
-            },
-            {
-              "item_x": 318,
-              "item_y": 48.5,
-              "label": "a",
-              "value": "a"
-            },
-            {
-              "item_x": 318,
-              "item_y": 66.5,
-              "label": "b",
-              "value": "b"
-            },
-            {
-              "item_x": 318,
-              "item_y": 84.5,
-              "label": "c",
-              "value": "c"
-            },
-            {
-              "item_x": 318,
-              "item_y": 102.5,
-              "label": "d",
-              "value": "d"
-            },
-            {
-              "item_x": 318,
-              "item_y": 120.5,
-              "label": "e",
-              "value": "e"
-            },
-            {
-              "item_x": 318,
-              "item_y": 138.5,
-              "label": "f",
-              "value": "f"
-            },
-            {
-              "item_x": 318,
-              "item_y": 156.5,
-              "label": "g",
-              "value": "g"
-            },
-            {
-              "item_x": 318,
-              "item_y": 174.5,
-              "label": "h",
-              "value": "h"
-            },
-            {
-              "item_x": 318,
-              "item_y": 192.5,
-              "label": "i",
-              "value": "i"
-            },
-            {
-              "item_x": 318,
-              "item_y": 210.5,
-              "label": "j",
-              "value": "j"
-            },
-            {
-              "item_x": 318,
-              "item_y": 228.5,
-              "label": "k",
-              "value": "k"
-            },
-            {
-              "item_x": 318,
-              "item_y": 246.5,
-              "label": "l",
-              "value": "l"
-            },
-            {
-              "item_x": 318,
-              "item_y": 264.5,
-              "label": "m",
-              "value": "m"
-            },
-            {
-              "item_x": 318,
-              "item_y": 282.5,
-              "label": "n",
-              "value": "n"
-            },
-            {
-              "item_x": 318,
-              "item_y": 300.5,
-              "label": "o",
-              "value": "o"
-            },
-            {
-              "item_x": 318,
-              "item_y": 318.5,
-              "label": "p",
-              "value": "p"
-            },
-            {
-              "item_x": 318,
-              "item_y": 336.5,
-              "label": "q",
-              "value": "q"
-            },
-            {
-              "item_x": 318,
-              "item_y": 354.5,
-              "label": "r",
-              "value": "r"
-            },
-            {
-              "item_x": 318,
-              "item_y": 372.5,
-              "label": "s",
-              "value": "s"
-            },
-            {
-              "item_x": 318,
-              "item_y": 390.5,
-              "label": "t",
-              "value": "t"
-            },
-            {
-              "item_x": 318,
-              "item_y": 408.5,
-              "label": "u",
-              "value": "u"
-            },
-            {
-              "item_x": 318,
-              "item_y": 426.5,
-              "label": "v",
-              "value": "v"
-            },
-            {
-              "item_x": 318,
-              "item_y": 444.5,
-              "label": "w",
-              "value": "w"
-            },
-            {
-              "item_x": 318,
-              "item_y": 462.5,
-              "label": "x",
-              "value": "x"
-            },
-            {
-              "item_x": 318,
-              "item_y": 480.5,
-              "label": "y",
-              "value": "y"
-            },
-            {
-              "item_x": 318,
-              "item_y": 498.5,
-              "label": "z",
-              "value": "z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "int",
-      "name": "roomNum",
-      "label": "Room Number:",
-      "param": "2",
-      "__combineSegments__": true,
-      "delimiter": "",
-      "__rowNum__": 9,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 518,
-          "segment_y": 166,
-          "segment_width": 62,
-          "segment_height": 207,
-          "items": [
-            {
-              "item_x": 29,
-              "item_y": 30.5,
-              "label": "0",
-              "value": 0
-            },
-            {
-              "item_x": 29,
-              "item_y": 48.5,
-              "label": "1",
-              "value": 1
-            },
-            {
-              "item_x": 29,
-              "item_y": 66.5,
-              "label": "2",
-              "value": 2
-            },
-            {
-              "item_x": 29,
-              "item_y": 84.5,
-              "label": "3",
-              "value": 3
-            },
-            {
-              "item_x": 29,
-              "item_y": 102.5,
-              "label": "4",
-              "value": 4
-            },
-            {
-              "item_x": 29,
-              "item_y": 120.5,
-              "label": "5",
-              "value": 5
-            },
-            {
-              "item_x": 29,
-              "item_y": 138.5,
-              "label": "6",
-              "value": 6
-            },
-            {
-              "item_x": 29,
-              "item_y": 156.5,
-              "label": "7",
-              "value": 7
-            },
-            {
-              "item_x": 29,
-              "item_y": 174.5,
-              "label": "8",
-              "value": 8
-            },
-            {
-              "item_x": 29,
-              "item_y": 192.5,
-              "label": "9",
-              "value": 9
-            },
-            {
-              "item_x": 51,
-              "item_y": 30.5,
-              "label": "0",
-              "value": 0
-            },
-            {
-              "item_x": 51,
-              "item_y": 48.5,
-              "label": "1",
-              "value": 1
-            },
-            {
-              "item_x": 51,
-              "item_y": 66.5,
-              "label": "2",
-              "value": 2
-            },
-            {
-              "item_x": 51,
-              "item_y": 84.5,
-              "label": "3",
-              "value": 3
-            },
-            {
-              "item_x": 51,
-              "item_y": 102.5,
-              "label": "4",
-              "value": 4
-            },
-            {
-              "item_x": 51,
-              "item_y": 120.5,
-              "label": "5",
-              "value": 5
-            },
-            {
-              "item_x": 51,
-              "item_y": 138.5,
-              "label": "6",
-              "value": 6
-            },
-            {
-              "item_x": 51,
-              "item_y": 156.5,
-              "label": "7",
-              "value": 7
-            },
-            {
-              "item_x": 51,
-              "item_y": 174.5,
-              "label": "8",
-              "value": 8
-            },
-            {
-              "item_x": 51,
-              "item_y": 192.5,
-              "label": "9",
-              "value": 9
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "string",
-      "name": "address",
-      "label": "Home Address:",
-      "rows": 4,
-      "__originalType__": "text",
-      "__rowNum__": 10,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 518,
-          "segment_y": 416,
-          "segment_width": 278,
-          "segment_height": 76
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "name": "mon_chores",
-      "label": "Monday Chores",
-      "constraint": "count-selected(.) = 1",
-      "required": true,
-      "param": "chores",
-      "__originalType__": "select_multiple",
-      "classifier": {
-        "classification_map": {
-          "empty": false
-        },
-        "default_classification": true,
-        "training_data_uri": "square_checkboxes",
-        "classifier_height": 16,
-        "classifier_width": 14,
-        "alignment_radius": 2,
-        "advanced": {
-          "flip_training_data": true
-        }
-      },
-      "__rowNum__": 15,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 31,
-          "segment_y": 673,
-          "segment_width": 94,
-          "segment_height": 138,
-          "items": [
-            {
-              "item_x": 11,
-              "item_y": 27.5,
-              "label": "Wash dishes",
-              "value": "dishes"
-            },
-            {
-              "item_x": 11,
-              "item_y": 55.5,
-              "label": "Sweep patio",
-              "value": "sweep"
-            },
-            {
-              "item_x": 11,
-              "item_y": 83.5,
-              "label": "Cook dinner",
-              "value": "cook"
-            },
-            {
-              "item_x": 11,
-              "item_y": 127.5,
-              "label": "Program roomba",
-              "value": "roomba"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "name": "tues_chores",
-      "label": "Tuesday Chores",
-      "constraint": "count-selected(.) = 1",
-      "required": true,
-      "param": "chores",
-      "__originalType__": "select_multiple",
-      "classifier": {
-        "classification_map": {
-          "empty": false
-        },
-        "default_classification": true,
-        "training_data_uri": "square_checkboxes",
-        "classifier_height": 16,
-        "classifier_width": 14,
-        "alignment_radius": 2,
-        "advanced": {
-          "flip_training_data": true
-        }
-      },
-      "__rowNum__": 16,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 144,
-          "segment_y": 673,
-          "segment_width": 93,
-          "segment_height": 138,
-          "items": [
-            {
-              "item_x": 11,
-              "item_y": 27.5,
-              "label": "Wash dishes",
-              "value": "dishes"
-            },
-            {
-              "item_x": 11,
-              "item_y": 55.5,
-              "label": "Sweep patio",
-              "value": "sweep"
-            },
-            {
-              "item_x": 11,
-              "item_y": 83.5,
-              "label": "Cook dinner",
-              "value": "cook"
-            },
-            {
-              "item_x": 11,
-              "item_y": 127.5,
-              "label": "Program roomba",
-              "value": "roomba"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "name": "wed_chores",
-      "label": "Wed. Chores",
-      "constraint": "count-selected(.) = 1",
-      "required": true,
-      "param": "chores",
-      "__originalType__": "select_multiple",
-      "classifier": {
-        "classification_map": {
-          "empty": false
-        },
-        "default_classification": true,
-        "training_data_uri": "square_checkboxes",
-        "classifier_height": 16,
-        "classifier_width": 14,
-        "alignment_radius": 2,
-        "advanced": {
-          "flip_training_data": true
-        }
-      },
-      "__rowNum__": 17,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 256,
-          "segment_y": 673,
-          "segment_width": 93,
-          "segment_height": 138,
-          "items": [
-            {
-              "item_x": 11,
-              "item_y": 27.5,
-              "label": "Wash dishes",
-              "value": "dishes"
-            },
-            {
-              "item_x": 11,
-              "item_y": 55.5,
-              "label": "Sweep patio",
-              "value": "sweep"
-            },
-            {
-              "item_x": 11,
-              "item_y": 83.5,
-              "label": "Cook dinner",
-              "value": "cook"
-            },
-            {
-              "item_x": 11,
-              "item_y": 127.5,
-              "label": "Program roomba",
-              "value": "roomba"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "name": "thurs_chores",
-      "label": "Thursday Chores",
-      "constraint": "count-selected(.) = 1",
-      "required": true,
-      "param": "chores",
-      "__originalType__": "select_multiple",
-      "classifier": {
-        "classification_map": {
-          "empty": false
-        },
-        "default_classification": true,
-        "training_data_uri": "square_checkboxes",
-        "classifier_height": 16,
-        "classifier_width": 14,
-        "alignment_radius": 2,
-        "advanced": {
-          "flip_training_data": true
-        }
-      },
-      "__rowNum__": 18,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 368,
-          "segment_y": 673,
-          "segment_width": 94,
-          "segment_height": 138,
-          "items": [
-            {
-              "item_x": 11,
-              "item_y": 27.5,
-              "label": "Wash dishes",
-              "value": "dishes"
-            },
-            {
-              "item_x": 11,
-              "item_y": 55.5,
-              "label": "Sweep patio",
-              "value": "sweep"
-            },
-            {
-              "item_x": 11,
-              "item_y": 83.5,
-              "label": "Cook dinner",
-              "value": "cook"
-            },
-            {
-              "item_x": 11,
-              "item_y": 127.5,
-              "label": "Program roomba",
-              "value": "roomba"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "name": "fri_chores",
-      "label": "Friday Chores",
-      "constraint": "count-selected(.) = 1",
-      "required": true,
-      "param": "chores",
-      "__originalType__": "select_multiple",
-      "classifier": {
-        "classification_map": {
-          "empty": false
-        },
-        "default_classification": true,
-        "training_data_uri": "square_checkboxes",
-        "classifier_height": 16,
-        "classifier_width": 14,
-        "alignment_radius": 2,
-        "advanced": {
-          "flip_training_data": true
-        }
-      },
-      "__rowNum__": 19,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 481,
-          "segment_y": 673,
-          "segment_width": 94,
-          "segment_height": 138,
-          "items": [
-            {
-              "item_x": 11,
-              "item_y": 27.5,
-              "label": "Wash dishes",
-              "value": "dishes"
-            },
-            {
-              "item_x": 11,
-              "item_y": 55.5,
-              "label": "Sweep patio",
-              "value": "sweep"
-            },
-            {
-              "item_x": 11,
-              "item_y": 83.5,
-              "label": "Cook dinner",
-              "value": "cook"
-            },
-            {
-              "item_x": 11,
-              "item_y": 127.5,
-              "label": "Program roomba",
-              "value": "roomba"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "name": "sat_chores",
-      "label": "Saturday Chores",
-      "constraint": "count-selected(.) = 1",
-      "required": true,
-      "param": "chores",
-      "__originalType__": "select_multiple",
-      "classifier": {
-        "classification_map": {
-          "empty": false
-        },
-        "default_classification": true,
-        "training_data_uri": "square_checkboxes",
-        "classifier_height": 16,
-        "classifier_width": 14,
-        "alignment_radius": 2,
-        "advanced": {
-          "flip_training_data": true
-        }
-      },
-      "__rowNum__": 20,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 594,
-          "segment_y": 673,
-          "segment_width": 94,
-          "segment_height": 138,
-          "items": [
-            {
-              "item_x": 11,
-              "item_y": 27.5,
-              "label": "Wash dishes",
-              "value": "dishes"
-            },
-            {
-              "item_x": 11,
-              "item_y": 55.5,
-              "label": "Sweep patio",
-              "value": "sweep"
-            },
-            {
-              "item_x": 11,
-              "item_y": 83.5,
-              "label": "Cook dinner",
-              "value": "cook"
-            },
-            {
-              "item_x": 11,
-              "item_y": 127.5,
-              "label": "Program roomba",
-              "value": "roomba"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "select",
-      "name": "sun_chores",
-      "label": "Sunday Chores",
-      "constraint": "count-selected(.) = 1",
-      "required": true,
-      "param": "chores",
-      "__originalType__": "select_multiple",
-      "classifier": {
-        "classification_map": {
-          "empty": false
-        },
-        "default_classification": true,
-        "training_data_uri": "square_checkboxes",
-        "classifier_height": 16,
-        "classifier_width": 14,
-        "alignment_radius": 2,
-        "advanced": {
-          "flip_training_data": true
-        }
-      },
-      "__rowNum__": 21,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 707,
-          "segment_y": 673,
-          "segment_width": 94,
-          "segment_height": 138,
-          "items": [
-            {
-              "item_x": 11,
-              "item_y": 27.5,
-              "label": "Wash dishes",
-              "value": "dishes"
-            },
-            {
-              "item_x": 11,
-              "item_y": 55.5,
-              "label": "Sweep patio",
-              "value": "sweep"
-            },
-            {
-              "item_x": 11,
-              "item_y": 83.5,
-              "label": "Cook dinner",
-              "value": "cook"
-            },
-            {
-              "item_x": 11,
-              "item_y": 127.5,
-              "label": "Program roomba",
-              "value": "roomba"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "string",
-      "name": "comments",
-      "label": "Comments:",
-      "__originalType__": "text",
-      "__rowNum__": 23,
-      "segments": [
-        {
-          "align_segment": true,
-          "segment_x": 26,
-          "segment_y": 860,
-          "segment_width": 780,
-          "segment_height": 28
-        }
-      ]
-    }
-  ]
+	"height": 827,
+	"width": 1169,
+	"fields": [
+		{
+			"order": "1",
+			"type": "qrcode",
+			"name": "HSA_name",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 750,
+					"segment_y": 10,
+					"segment_width": 70,
+					"segment_height": 70
+				}
+			]
+		},
+		{
+			"order": "2",
+			"type": "string",
+			"name": "HSA_addtl",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 820,
+					"segment_y": 10,
+					"segment_width": 260,
+					"segment_height": 70
+				}
+			]
+		},
+		{
+			"order": "3",
+			"type": "string",
+			"name": "name",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 50,
+					"segment_y": 100,
+					"segment_width": 270,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "4",
+			"type": "int",
+			"name": "clientID",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"param": 5,
+			"segments": [
+				{
+					"segment_x": 30,
+					"segment_y": 140,
+					"segment_width": 150,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 17,
+							"item_y": 20
+						},
+						{
+							"item_x": 46.5,
+							"item_y": 20
+						},
+						{
+							"item_x": 75.5,
+							"item_y": 20
+						},
+						{
+							"item_x": 104.5,
+							"item_y": 20
+						},
+						{
+							"item_x": 133.5,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "5",
+			"type": "qrcode",
+			"name": "client_code",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 250,
+					"segment_y": 140,
+					"segment_width": 70,
+					"segment_height": 70
+				}
+			]
+		},
+		{
+			"order": "6",
+			"type": "int",
+			"name": "age",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"param": 2,
+			"segments": [
+				{
+					"segment_x": 60,
+					"segment_y": 180,
+					"segment_width": 60,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 16,
+							"item_y": 19
+						},
+						{
+							"item_x": 45,
+							"item_y": 19
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "7",
+			"type": "string",
+			"name": "village",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 50,
+					"segment_y": 220,
+					"segment_width": 270,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "8",
+			"type": "string",
+			"name": "EDD",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 70,
+					"segment_y": 270,
+					"segment_width": 190,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 17.5,
+							"item_y": 16
+						},
+						{
+							"item_x": 45.5,
+							"item_y": 16
+						},
+						{
+							"item_x": 81.5,
+							"item_y": 16
+						},
+						{
+							"item_x": 109.5,
+							"item_y": 16
+						},
+						{
+							"item_x": 145.5,
+							"item_y": 16
+						},
+						{
+							"item_x": 173.5,
+							"item_y": 16
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "9",
+			"type": "int",
+			"name": "num_preg",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"param": 2,
+			"segments": [
+				{
+					"segment_x": 100,
+					"segment_y": 330,
+					"segment_width": 60,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 18,
+							"item_y": 19
+						},
+						{
+							"item_x": 45,
+							"item_y": 19
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "10",
+			"type": "int",
+			"name": "live_births",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"param": 2,
+			"segments": [
+				{
+					"segment_x": 260,
+					"segment_y": 330,
+					"segment_width": 60,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 18,
+							"item_y": 19
+						},
+						{
+							"item_x": 45,
+							"item_y": 19
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "11",
+			"type": "select1",
+			"name": "regCCPF",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes",
+				"no"
+			],
+			"segments": [
+				{
+					"segment_x": 160,
+					"segment_y": 390,
+					"segment_width": 50,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 12,
+							"item_y": 10
+						},
+						{
+							"item_x": 36,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "12",
+			"type": "select1",
+			"name": "CCPFform",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes",
+				"no"
+			],
+			"segments": [
+				{
+					"segment_x": 220,
+					"segment_y": 430,
+					"segment_width": 50,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 10
+						},
+						{
+							"item_x": 39,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "13",
+			"type": "string",
+			"name": "ANC_loc",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 360,
+					"segment_y": 110,
+					"segment_width": 190,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "14",
+			"type": "int",
+			"name": "monthpreg_ANC",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"param": 1,
+			"segments": [
+				{
+					"segment_x": 690,
+					"segment_y": 100,
+					"segment_width": 30,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 18,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "15",
+			"type": "string",
+			"name": "ANC_v1",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 370,
+					"segment_y": 170,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 15
+						},
+						{
+							"item_x": 41,
+							"item_y": 15
+						},
+						{
+							"item_x": 77,
+							"item_y": 15
+						},
+						{
+							"item_x": 103,
+							"item_y": 15
+						},
+						{
+							"item_x": 139,
+							"item_y": 15
+						},
+						{
+							"item_x": 165,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "16",
+			"type": "string",
+			"name": "ANC_v2",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 370,
+					"segment_y": 200,
+					"segment_width": 180,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 20
+						},
+						{
+							"item_x": 41,
+							"item_y": 20
+						},
+						{
+							"item_x": 77,
+							"item_y": 20
+						},
+						{
+							"item_x": 103,
+							"item_y": 20
+						},
+						{
+							"item_x": 139,
+							"item_y": 20
+						},
+						{
+							"item_x": 165,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "17",
+			"type": "string",
+			"name": "ANC_v3",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 370,
+					"segment_y": 240,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 15
+						},
+						{
+							"item_x": 41,
+							"item_y": 15
+						},
+						{
+							"item_x": 77,
+							"item_y": 15
+						},
+						{
+							"item_x": 103,
+							"item_y": 15
+						},
+						{
+							"item_x": 139,
+							"item_y": 15
+						},
+						{
+							"item_x": 165,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "18",
+			"type": "string",
+			"name": "ANC_v4",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 370,
+					"segment_y": 270,
+					"segment_width": 180,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 20
+						},
+						{
+							"item_x": 41,
+							"item_y": 20
+						},
+						{
+							"item_x": 77,
+							"item_y": 20
+						},
+						{
+							"item_x": 103,
+							"item_y": 20
+						},
+						{
+							"item_x": 139,
+							"item_y": 20
+						},
+						{
+							"item_x": 165,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "19",
+			"type": "string",
+			"name": "ANC_v5",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 370,
+					"segment_y": 310,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 15
+						},
+						{
+							"item_x": 41,
+							"item_y": 15
+						},
+						{
+							"item_x": 77,
+							"item_y": 15
+						},
+						{
+							"item_x": 103,
+							"item_y": 15
+						},
+						{
+							"item_x": 139,
+							"item_y": 15
+						},
+						{
+							"item_x": 165,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "20",
+			"type": "string",
+			"name": "TTV1",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 570,
+					"segment_y": 170,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 15
+						},
+						{
+							"item_x": 41,
+							"item_y": 15
+						},
+						{
+							"item_x": 77,
+							"item_y": 15
+						},
+						{
+							"item_x": 103,
+							"item_y": 15
+						},
+						{
+							"item_x": 139,
+							"item_y": 15
+						},
+						{
+							"item_x": 165,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "21",
+			"type": "string",
+			"name": "TTV2",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 570,
+					"segment_y": 200,
+					"segment_width": 180,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 20
+						},
+						{
+							"item_x": 41,
+							"item_y": 20
+						},
+						{
+							"item_x": 77,
+							"item_y": 20
+						},
+						{
+							"item_x": 103,
+							"item_y": 20
+						},
+						{
+							"item_x": 139,
+							"item_y": 20
+						},
+						{
+							"item_x": 165,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "22",
+			"type": "string",
+			"name": "TTV3",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 570,
+					"segment_y": 240,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 15
+						},
+						{
+							"item_x": 41,
+							"item_y": 15
+						},
+						{
+							"item_x": 77,
+							"item_y": 15
+						},
+						{
+							"item_x": 103,
+							"item_y": 15
+						},
+						{
+							"item_x": 139,
+							"item_y": 15
+						},
+						{
+							"item_x": 165,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "23",
+			"type": "string",
+			"name": "TTV4",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 570,
+					"segment_y": 270,
+					"segment_width": 180,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 20
+						},
+						{
+							"item_x": 41,
+							"item_y": 20
+						},
+						{
+							"item_x": 77,
+							"item_y": 20
+						},
+						{
+							"item_x": 103,
+							"item_y": 20
+						},
+						{
+							"item_x": 139,
+							"item_y": 20
+						},
+						{
+							"item_x": 165,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "24",
+			"type": "string",
+			"name": "TTV5",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 570,
+					"segment_y": 310,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 15
+						},
+						{
+							"item_x": 41,
+							"item_y": 15
+						},
+						{
+							"item_x": 77,
+							"item_y": 15
+						},
+						{
+							"item_x": 103,
+							"item_y": 15
+						},
+						{
+							"item_x": 139,
+							"item_y": 15
+						},
+						{
+							"item_x": 165,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "25",
+			"type": "select_many",
+			"name": "malaria_pro_given",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"1",
+				"2"
+			],
+			"segments": [
+				{
+					"segment_x": 440,
+					"segment_y": 360,
+					"segment_width": 20,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 10
+						},
+						{
+							"item_x": 10,
+							"item_y": 28
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "26",
+			"type": "select_many",
+			"name": "albend_given",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"1",
+				"2"
+			],
+			"segments": [
+				{
+					"segment_x": 640,
+					"segment_y": 360,
+					"segment_width": 20,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 10
+						},
+						{
+							"item_x": 10,
+							"item_y": 28
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "27",
+			"type": "select1",
+			"name": "iron",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes"
+			],
+			"segments": [
+				{
+					"segment_x": 880,
+					"segment_y": 350,
+					"segment_width": 20,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 7
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "28",
+			"type": "select1",
+			"name": "ITN",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes"
+			],
+			"segments": [
+				{
+					"segment_x": 880,
+					"segment_y": 380,
+					"segment_width": 20,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 7
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "29",
+			"type": "select_many",
+			"name": "health_cond",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"hypertension",
+				"diabetes",
+				"under the age of 20",
+				"underweight",
+				"carrying twins or triplets",
+				"history of preterm delivery",
+				"history of stillbirth or neonatal death",
+				"other1",
+				"other2"
+			],
+			"segments": [
+				{
+					"segment_x": 930,
+					"segment_y": 120,
+					"segment_width": 20,
+					"segment_height": 210,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 11
+						},
+						{
+							"item_x": 10,
+							"item_y": 34.5
+						},
+						{
+							"item_x": 10,
+							"item_y": 57.5
+						},
+						{
+							"item_x": 10,
+							"item_y": 80.5
+						},
+						{
+							"item_x": 10,
+							"item_y": 103.5
+						},
+						{
+							"item_x": 10,
+							"item_y": 126.5
+						},
+						{
+							"item_x": 10,
+							"item_y": 149.5
+						},
+						{
+							"item_x": 10,
+							"item_y": 172.5
+						},
+						{
+							"item_x": 10,
+							"item_y": 195.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "30",
+			"type": "string",
+			"name": "health_cond_other1",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 810,
+					"segment_y": 280,
+					"segment_width": 120,
+					"segment_height": 20
+				}
+			]
+		},
+		{
+			"order": "31",
+			"type": "string",
+			"name": "health_cond_other2",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 810,
+					"segment_y": 310,
+					"segment_width": 120,
+					"segment_height": 20
+				}
+			]
+		},
+		{
+			"order": "32",
+			"type": "select_many",
+			"name": "HIV_test",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"yes"
+			],
+			"segments": [
+				{
+					"segment_x": 1090,
+					"segment_y": 110,
+					"segment_width": 20,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 9
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "33",
+			"type": "string",
+			"name": "birthplan_loc",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 1010,
+					"segment_y": 170,
+					"segment_width": 150,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "34",
+			"type": "select1",
+			"name": "birthplan_transport",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"bicycle",
+				"walk",
+				"car/bus",
+				"other"
+			],
+			"segments": [
+				{
+					"segment_x": 970,
+					"segment_y": 230,
+					"segment_width": 180,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 25,
+							"item_y": 10
+						},
+						{
+							"item_x": 69,
+							"item_y": 10
+						},
+						{
+							"item_x": 113,
+							"item_y": 10
+						},
+						{
+							"item_x": 157,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "35",
+			"type": "select_many",
+			"name": "danger_signs",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"excessive vaginal bleeding",
+				"fever",
+				"foul vaginal discharge",
+				"5severe headache",
+				"6"
+			],
+			"segments": [
+				{
+					"segment_x": 1130,
+					"segment_y": 300,
+					"segment_width": 20,
+					"segment_height": 90,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 10
+						},
+						{
+							"item_x": 10,
+							"item_y": 28
+						},
+						{
+							"item_x": 10,
+							"item_y": 46
+						},
+						{
+							"item_x": 10,
+							"item_y": 64
+						},
+						{
+							"item_x": 10,
+							"item_y": 82
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "36",
+			"type": "string",
+			"name": "date_delivery",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 450,
+					"segment_y": 410,
+					"segment_width": 180,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 12,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 40,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 76,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 104,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 140,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 168,
+							"item_y": 20.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "37",
+			"type": "select1",
+			"name": "deliv_facility",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes",
+				"no"
+			],
+			"segments": [
+				{
+					"segment_x": 490,
+					"segment_y": 450,
+					"segment_width": 50,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 10
+						},
+						{
+							"item_x": 39,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "38",
+			"type": "string",
+			"name": "loc_delivery",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 470,
+					"segment_y": 490,
+					"segment_width": 190,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "39",
+			"type": "select1",
+			"name": "infant_status",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"live birth",
+				"stillbirth",
+				"neonatal death"
+			],
+			"segments": [
+				{
+					"segment_x": 440,
+					"segment_y": 520,
+					"segment_width": 240,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 33,
+							"item_y": 10
+						},
+						{
+							"item_x": 112.5,
+							"item_y": 10
+						},
+						{
+							"item_x": 191.5,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "40",
+			"type": "string",
+			"name": "postnatal_notes",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 360,
+					"segment_y": 560,
+					"segment_width": 350,
+					"segment_height": 60
+				}
+			]
+		},
+		{
+			"order": "41",
+			"type": "select1",
+			"name": "postnatal_chk",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes"
+			],
+			"segments": [
+				{
+					"segment_x": 880,
+					"segment_y": 410,
+					"segment_width": 20,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 9
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "42",
+			"type": "string",
+			"name": "date_PNcheckup",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 720,
+					"segment_y": 460,
+					"segment_width": 190,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 16,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 44,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 80,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 108,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 144,
+							"item_y": 20.5
+						},
+						{
+							"item_x": 172,
+							"item_y": 20.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "43",
+			"type": "string",
+			"name": "postnatal_loc",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 720,
+					"segment_y": 520,
+					"segment_width": 190,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "44",
+			"type": "select1",
+			"name": "vitA_given",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes",
+				"no"
+			],
+			"segments": [
+				{
+					"segment_x": 850,
+					"segment_y": 550,
+					"segment_width": 50,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 10
+						},
+						{
+							"item_x": 39,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "45",
+			"type": "select1",
+			"name": "breastfeeding",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes",
+				"no"
+			],
+			"segments": [
+				{
+					"segment_x": 850,
+					"segment_y": 590,
+					"segment_width": 50,
+					"segment_height": 10,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 15,
+							"item_y": 5
+						},
+						{
+							"item_x": 39,
+							"item_y": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "46",
+			"type": "string",
+			"name": "addtl_notes",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 930,
+					"segment_y": 450,
+					"segment_width": 230,
+					"segment_height": 170
+				}
+			]
+		},
+		{
+			"order": "47",
+			"type": "string",
+			"name": "V1_date",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 90,
+					"segment_y": 650,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 12,
+							"item_y": 15
+						},
+						{
+							"item_x": 40,
+							"item_y": 15
+						},
+						{
+							"item_x": 76,
+							"item_y": 15
+						},
+						{
+							"item_x": 104,
+							"item_y": 15
+						},
+						{
+							"item_x": 140,
+							"item_y": 15
+						},
+						{
+							"item_x": 168,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "48",
+			"type": "select_many",
+			"name": "V1_topics",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"pregnancy danger signs",
+				"malaria prophylaxis",
+				"HIV/TB counseling",
+				"activity level",
+				"nutrition",
+				"birth plan",
+				"breastfeeding",
+				"family planning",
+				"postnatal danger signs",
+				"neonatal care/ danger signs"
+			],
+			"segments": [
+				{
+					"segment_x": 300,
+					"segment_y": 670,
+					"segment_width": 830,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 42,
+							"item_y": 7
+						},
+						{
+							"item_x": 125,
+							"item_y": 7
+						},
+						{
+							"item_x": 208,
+							"item_y": 7
+						},
+						{
+							"item_x": 291,
+							"item_y": 7
+						},
+						{
+							"item_x": 374,
+							"item_y": 7
+						},
+						{
+							"item_x": 457,
+							"item_y": 7
+						},
+						{
+							"item_x": 540,
+							"item_y": 7
+						},
+						{
+							"item_x": 623,
+							"item_y": 7
+						},
+						{
+							"item_x": 706,
+							"item_y": 7
+						},
+						{
+							"item_x": 789,
+							"item_y": 7
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "49",
+			"type": "string",
+			"name": "V2_date",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 90,
+					"segment_y": 680,
+					"segment_width": 180,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 12,
+							"item_y": 20
+						},
+						{
+							"item_x": 40,
+							"item_y": 20
+						},
+						{
+							"item_x": 76,
+							"item_y": 20
+						},
+						{
+							"item_x": 104,
+							"item_y": 20
+						},
+						{
+							"item_x": 140,
+							"item_y": 20
+						},
+						{
+							"item_x": 168,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "50",
+			"type": "select_many",
+			"name": "V2_topics",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"pregnancy danger signs",
+				"malaria prophylaxis",
+				"HIV/TB counseling",
+				"activity level",
+				"nutrition",
+				"birth plan",
+				"breastfeeding",
+				"family planning",
+				"postnatal danger signs",
+				"neonatal care/ danger signs"
+			],
+			"segments": [
+				{
+					"segment_x": 300,
+					"segment_y": 700,
+					"segment_width": 830,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 42,
+							"item_y": 10
+						},
+						{
+							"item_x": 125,
+							"item_y": 10
+						},
+						{
+							"item_x": 208,
+							"item_y": 10
+						},
+						{
+							"item_x": 291,
+							"item_y": 10
+						},
+						{
+							"item_x": 374,
+							"item_y": 10
+						},
+						{
+							"item_x": 457,
+							"item_y": 10
+						},
+						{
+							"item_x": 540,
+							"item_y": 10
+						},
+						{
+							"item_x": 623,
+							"item_y": 10
+						},
+						{
+							"item_x": 706,
+							"item_y": 10
+						},
+						{
+							"item_x": 789,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "51",
+			"type": "string",
+			"name": "V3_date",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 90,
+					"segment_y": 720,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 12,
+							"item_y": 15
+						},
+						{
+							"item_x": 40,
+							"item_y": 15
+						},
+						{
+							"item_x": 76,
+							"item_y": 15
+						},
+						{
+							"item_x": 104,
+							"item_y": 15
+						},
+						{
+							"item_x": 140,
+							"item_y": 15
+						},
+						{
+							"item_x": 168,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "52",
+			"type": "select_many",
+			"name": "V3_topics",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"pregnancy danger signs",
+				"malaria prophylaxis",
+				"HIV/TB counseling",
+				"activity level",
+				"nutrition",
+				"birth plan",
+				"breastfeeding",
+				"family planning",
+				"postnatal danger signs",
+				"neonatal care/ danger signs"
+			],
+			"segments": [
+				{
+					"segment_x": 300,
+					"segment_y": 730,
+					"segment_width": 830,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 42,
+							"item_y": 10
+						},
+						{
+							"item_x": 125,
+							"item_y": 10
+						},
+						{
+							"item_x": 208,
+							"item_y": 10
+						},
+						{
+							"item_x": 291,
+							"item_y": 10
+						},
+						{
+							"item_x": 374,
+							"item_y": 10
+						},
+						{
+							"item_x": 457,
+							"item_y": 10
+						},
+						{
+							"item_x": 540,
+							"item_y": 10
+						},
+						{
+							"item_x": 623,
+							"item_y": 10
+						},
+						{
+							"item_x": 706,
+							"item_y": 10
+						},
+						{
+							"item_x": 789,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "53",
+			"type": "string",
+			"name": "V4_date",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 90,
+					"segment_y": 750,
+					"segment_width": 180,
+					"segment_height": 40,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 12,
+							"item_y": 20
+						},
+						{
+							"item_x": 40,
+							"item_y": 20
+						},
+						{
+							"item_x": 76,
+							"item_y": 20
+						},
+						{
+							"item_x": 104,
+							"item_y": 20
+						},
+						{
+							"item_x": 140,
+							"item_y": 20
+						},
+						{
+							"item_x": 168,
+							"item_y": 20
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "54",
+			"type": "select_many",
+			"name": "V4_topics",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"pregnancy danger signs",
+				"malaria prophylaxis",
+				"HIV/TB counseling",
+				"activity level",
+				"nutrition",
+				"birth plan",
+				"breastfeeding",
+				"family planning",
+				"postnatal danger signs",
+				"neonatal care/ danger signs"
+			],
+			"segments": [
+				{
+					"segment_x": 300,
+					"segment_y": 760,
+					"segment_width": 830,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 42,
+							"item_y": 13
+						},
+						{
+							"item_x": 125,
+							"item_y": 13
+						},
+						{
+							"item_x": 208,
+							"item_y": 13
+						},
+						{
+							"item_x": 291,
+							"item_y": 13
+						},
+						{
+							"item_x": 374,
+							"item_y": 13
+						},
+						{
+							"item_x": 457,
+							"item_y": 13
+						},
+						{
+							"item_x": 540,
+							"item_y": 13
+						},
+						{
+							"item_x": 623,
+							"item_y": 13
+						},
+						{
+							"item_x": 706,
+							"item_y": 13
+						},
+						{
+							"item_x": 789,
+							"item_y": 13
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "55",
+			"type": "string",
+			"name": "V5_date",
+			"delim_type": "/",
+			"num_group": 3,
+			"element_each_group": [
+				2,
+				2,
+				2
+			],
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 28,
+				"classifier_width": 20,
+				"training_data_uri": "numbers",
+				"classification_map": {
+					"0": "0",
+					"1": "1",
+					"2": "2",
+					"3": "3",
+					"4": "4",
+					"5": "5",
+					"6": "6",
+					"7": "7",
+					"8": "8",
+					"9": "9"
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false,
+					"eigenvalues": 13
+				}
+			},
+			"segments": [
+				{
+					"segment_x": 90,
+					"segment_y": 790,
+					"segment_width": 180,
+					"segment_height": 30,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 12,
+							"item_y": 15
+						},
+						{
+							"item_x": 40,
+							"item_y": 15
+						},
+						{
+							"item_x": 76,
+							"item_y": 15
+						},
+						{
+							"item_x": 104,
+							"item_y": 15
+						},
+						{
+							"item_x": 140,
+							"item_y": 15
+						},
+						{
+							"item_x": 168,
+							"item_y": 15
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "56",
+			"type": "select_many",
+			"name": "V5_topics",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"pregnancy danger signs",
+				"malaria prophylaxis",
+				"HIV/TB counseling",
+				"activity level",
+				"nutrition",
+				"birth plan",
+				"breastfeeding",
+				"family planning",
+				"postnatal danger signs",
+				"neonatal care/ danger signs"
+			],
+			"segments": [
+				{
+					"segment_x": 300,
+					"segment_y": 800,
+					"segment_width": 830,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 42,
+							"item_y": 7
+						},
+						{
+							"item_x": 125,
+							"item_y": 7
+						},
+						{
+							"item_x": 208,
+							"item_y": 7
+						},
+						{
+							"item_x": 291,
+							"item_y": 7
+						},
+						{
+							"item_x": 374,
+							"item_y": 7
+						},
+						{
+							"item_x": 457,
+							"item_y": 7
+						},
+						{
+							"item_x": 540,
+							"item_y": 7
+						},
+						{
+							"item_x": 623,
+							"item_y": 7
+						},
+						{
+							"item_x": 706,
+							"item_y": 7
+						},
+						{
+							"item_x": 789,
+							"item_y": 7
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "57",
+			"type": "select_many",
+			"name": "reg_comp",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"1"
+			],
+			"segments": [
+				{
+					"segment_x": 200,
+					"segment_y": 480,
+					"segment_width": 20,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "58",
+			"type": "string",
+			"name": "reg_initials",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 290,
+					"segment_y": 480,
+					"segment_width": 30,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "59",
+			"type": "select_many",
+			"name": "dischar_comp",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "many",
+			"grid_values": [
+				"1"
+			],
+			"segments": [
+				{
+					"segment_x": 200,
+					"segment_y": 520,
+					"segment_width": 20,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 10,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "60",
+			"type": "string",
+			"name": "dis_initials",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 290,
+					"segment_y": 530,
+					"segment_width": 30,
+					"segment_height": 30
+				}
+			]
+		},
+		{
+			"order": "61",
+			"type": "select1",
+			"name": "lantern",
+			"verify": "Yes",
+			"classifier": {
+				"classifier_height": 20,
+				"classifier_width": 20,
+				"training_data_uri": "bubbles",
+				"classification_map": {
+					"empty": false
+				},
+				"default_classification": true,
+				"advanced": {
+					"flip_training_data": false
+				}
+			},
+			"param": "yes_no",
+			"grid_values": [
+				"yes",
+				"no"
+			],
+			"segments": [
+				{
+					"segment_x": 200,
+					"segment_y": 560,
+					"segment_width": 60,
+					"segment_height": 20,
+					"align_segment": false,
+					"items": [
+						{
+							"item_x": 11,
+							"item_y": 10
+						},
+						{
+							"item_x": 37,
+							"item_y": 10
+						}
+					]
+				}
+			]
+		},
+		{
+			"order": "",
+			"type": "string",
+			"name": "addtl_text",
+			"verify": "Yes",
+			"segments": [
+				{
+					"segment_x": 320,
+					"segment_y": 0,
+					"segment_width": 430,
+					"segment_height": 40
+				}
+			]
+		}
+	]
 }

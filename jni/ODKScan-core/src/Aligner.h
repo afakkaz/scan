@@ -23,7 +23,6 @@ class Aligner
 		std::vector< std::vector<cv::KeyPoint> > templKeypointsVec;
 		std::vector<cv::Mat> templDescriptorsVec;
 		
-	
 	public:
 		cv::Mat currentImg;
 		std::vector<cv::Size> templImageSizeVec;

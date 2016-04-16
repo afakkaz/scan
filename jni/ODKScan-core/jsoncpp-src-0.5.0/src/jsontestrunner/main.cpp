@@ -185,7 +185,7 @@ parseCommandLine( int argc, const char *argv[],
 }
 
 
-int main( int argc, const char *argv[] )
+int mmmmain( int argc, const char *argv[] )
 {
    std::string path;
    Json::Features features;

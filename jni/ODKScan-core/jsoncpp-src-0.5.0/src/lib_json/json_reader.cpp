@@ -1,4 +1,5 @@
-#include <json/reader.h>
+#include "stdafx.h"
+#include <reader.h>
 #include <json/value.h>
 #include <utility>
 #include <cstdio>

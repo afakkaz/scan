@@ -1,0 +1,5 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1436781720000 43858 ccbc77a5fd907ef863c29f3596c6f54ffa4e9442 D:\ImageProccessing\Code\Android\Code\opendatakit\scan-master\scan-master\libs\kxml2-2.3.0.jar
+1436332060000 43858 ccbc77a5fd907ef863c29f3596c6f54ffa4e9442 D:\ImageProccessing\Code\Android\Code\opendatakit\scan-master\androidcommon-master\androidcommon\libs\kxml2-2.3.0.jar

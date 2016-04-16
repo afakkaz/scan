@@ -22,33 +22,34 @@
 #include "AlignmentUtils.h"
 #include "Addons.h"
 #include "NumberClassifier.h"
+#include "FormNormalizer.h"
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 
-#include <json/json.h>
 
-//QRCode stuff:
-#include "ImageReaderSource.h"
-#include <zxing/common/Counted.h>
-#include <zxing/Binarizer.h>
-#include <zxing/MultiFormatReader.h>
-#include <zxing/Result.h>
-#include <zxing/ReaderException.h>
-//#include <zxing/common/GlobalHistogramBinarizer.h>
-#include <zxing/common/HybridBinarizer.h>
-#include <exception>
-#include <zxing/Exception.h>
-#include <zxing/common/IllegalArgumentException.h>
-#include <zxing/BinaryBitmap.h>
-#include <zxing/DecodeHints.h>
-#include <zxing/qrcode/QRCodeReader.h>
-#include <zxing/multi/qrcode/QRCodeMultiReader.h>
-#include <zxing/multi/ByQuadrantReader.h>
-//#include <zxing/multi/MultipleBarcodeReader.h>
-//#include <zxing/multi/GenericMultipleBarcodeReader.h>
+//#include <json/json.h>
+//
+////QRCode stuff:
+//#include "ImageReaderSource.h"
+//#include <zxing/common/Counted.h>
+//#include <zxing/Binarizer.h>
+//#include <zxing/MultiFormatReader.h>
+//#include <zxing/Result.h>
+//#include <zxing/ReaderException.h>
+////#include <zxing/common/GlobalHistogramBinarizer.h>
+//#include <zxing/common/HybridBinarizer.h>
+//#include <exception>
+//#include <zxing/Exception.h>
+//#include <zxing/common/IllegalArgumentException.h>
+//#include <zxing/BinaryBitmap.h>
+//#include <zxing/DecodeHints.h>
+//#include <zxing/qrcode/QRCodeReader.h>
+//#include <zxing/multi/qrcode/QRCodeMultiReader.h>
+//#include <zxing/multi/ByQuadrantReader.h>
+
 
 using namespace zxing;
 using namespace zxing::multi;
@@ -75,6 +76,7 @@ using namespace zxing::qrcode;
 using namespace std;
 using namespace cv;
 
+string TempPath = "";
 //Serialize the JSON into an unstyled string.
 //See also: Json::Value::toStyledString
 const string stringify(const Json::Value& theJson){
@@ -348,6 +350,7 @@ public:
 	string trainingDataPath;
 	bool trainedNumberClassifier;
 	Mat formImage;
+	Mat InputImage;
 	Aligner aligner;
 private:
 	
@@ -804,6 +807,7 @@ bool setTemplate(const char* templatePathArg) {
 	#endif
 	//TODO: Remove templPath variable?
 	templPath = addSlashIfNeeded(templatePathArg);
+	//InputImage = imread(templPath + "InputImage.jpg",0);
 	bool success = parseJsonFromFile(templPath + "template.json", root);
 	//root["template_path"] = templPath;
 	return success;
@@ -818,7 +822,7 @@ bool loadFormImage(const char* imagePath, const char* calibrationFilePath) {
 		init = clock();
 	#endif
 	Mat temp;
-	
+	templPath = addSlashIfNeeded(templatePathArg);
 	formImage = imread(imagePath, 0);
 	if(formImage.empty()) return false;
 	
@@ -831,7 +835,6 @@ bool loadFormImage(const char* imagePath, const char* calibrationFilePath) {
 		transpose(formImage, temp);
 		flip(temp,formImage, 1);
 	}
-
 	if(calibrationFilePath){
 		Mat cameraMatrix, distCoeffs;
 		Mat map1, map2;
@@ -894,6 +897,9 @@ bool alignForm(const char* alignedImageOutputPath, size_t formIdx) {
 	} catch(cv::Exception& e){
 		return false;
 	}
+
+    FormNormalizer FN = FormNormalizer();
+    straightenedImage = FN.PreprocessForm(straightenedImage,TempPath);
 
 	formImage = straightenedImage;	
 	//JsonOutput["aligned_image_path"] = alignedImageOutputPath;
@@ -970,6 +976,7 @@ bool writeFormImage(const char* outputPath) {
 //This can be called multiple times, so multiple templates are loaded into memeory for detection.
 bool loadFeatureData(const char* templatePathArg) {
 	string templatePath = addSlashIfNeeded(templatePathArg);
+	TempPath = templatePath + "template.json";
 	aligner.loadFeatureData(templatePath + "form.jpg",
 	                        templatePath + "template.json",
 	                        templatePath + "cached_features.yml");
@@ -1167,7 +1174,7 @@ const string Processor::processViaJSON(const char* jsonString) {
 
 		if(config.get("alignForm", true).asBool()){
 			string alignedFormOutputPath = config.get("alignedFormOutputPath",
-					addSlashIfNeeded(outputDirectory) + "aligned.jpg").asString();
+					addSlashIfNeeded(outputDirectory) + "aligneds.jpg").asString();
 			if(!processorImpl->alignForm(alignedFormOutputPath.c_str(), (size_t)formIdx)){
 				if(config.get("detectOrientation", true).asBool()){
 					//Sometimes the form is upside-down in photographs.
@@ -1196,9 +1203,9 @@ const string Processor::processViaJSON(const char* jsonString) {
 			processorImpl->trainingDataPath = config.get("trainingDataDirectory", "training_examples/").asString();
 			string normalizedOutDir = addSlashIfNeeded(outputDirectory);
 			string jsonOutputPath = config.get("jsonOutputPath",
-					normalizedOutDir + "output.json").asString();
+					normalizedOutDir + "outputs.json").asString();
 			string markedupFormOutputPath = config.get("markedupFormOutputPath",
-					normalizedOutDir + "markedup.jpg").asString();
+					normalizedOutDir + "markedups.jpg").asString();
 			if(!processorImpl->processForm(normalizedOutDir, jsonOutputPath, markedupFormOutputPath, false))
 			{
 				result["errorMessage"] = "Could not process form.";

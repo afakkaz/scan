@@ -14,7 +14,7 @@
  * the License.
  */
 #include "Addons.h"
-#include <json/json.h>
+#include "json.h"
 #include <fstream>
 #include <stdexcept>
 #include <iostream>
