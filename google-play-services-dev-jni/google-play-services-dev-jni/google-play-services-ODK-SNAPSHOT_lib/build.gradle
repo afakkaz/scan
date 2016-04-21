@@ -1,0 +1,57 @@
+/**************************************************************************************************
+                                        GRADLE CONFIG
+ *************************************************************************************************/
+
+if ((new File(gradle.local)).exists()) { // TODO: This is very strange
+    apply from: gradle.local
+} else {
+    apply from: gradle.remote
+}
+
+libraryScripts.each {
+    apply from: it
+}
+
+apply plugin: 'com.android.model.library'
+
+releaseVersionCode = playServicesVersion
+group = groupId
+
+model {
+    android {
+        // The following are set in the common.gradle file
+        compileSdkVersion(compileVersion)
+        buildToolsVersion(buildTools)
+
+        defaultConfig {
+            minSdkVersion.apiLevel(minVersion)
+            targetSdkVersion.apiLevel(targetVersion)
+            versionCode(playServicesVersion)
+            versionName("3.1.36-111 (673201-10)")
+        }
+    }
+
+    android.buildTypes {
+        release {
+            minifyEnabled(minify)
+        }
+        debug {
+            testCoverageEnabled(testCoverage)
+            // Allows AndroidTest JaCoCo reports to be generated
+        }
+    }
+
+    android.packagingOptions {
+        // Pick first occurrence of any files that cause conflicts, as defined in common.gradle
+        packageList.each {
+            pickFirst it
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+
+    // Testing dependencies
+    testCompile 'junit:junit:4.12'
+}

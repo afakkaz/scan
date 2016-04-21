@@ -1,0 +1,93 @@
+/**************************************************************************************************
+                                        GRADLE CONFIG
+ *************************************************************************************************/
+
+if ((new File(gradle.local)).exists()) {
+    apply from: gradle.local
+} else {
+    apply from: gradle.remote
+}
+
+libraryScripts.each {
+    apply from: it
+}
+
+apply plugin: 'com.android.model.library'
+
+group = groupId
+
+com.android.ddmlib.DdmPreferences.setTimeOut(60000)
+
+model {
+    android {
+        // The following are set in the common.gradle file
+        compileSdkVersion(compileVersion)
+        buildToolsVersion(buildTools)
+
+        defaultConfig {
+            minSdkVersion.apiLevel(minVersion)
+            targetSdkVersion.apiLevel(targetVersion)
+            versionCode(releaseVersionCode)
+            versionName(versionCodeName)
+        }
+
+    }
+
+    android.buildTypes {
+        release {
+            minifyEnabled(minify)
+        }
+        debug {
+            testCoverageEnabled(testCoverage)
+            // Allows AndroidTest JaCoCo reports to be generated
+        }
+    }
+
+    android.packagingOptions {
+        // Pick first occurrence of any files that cause conflicts, as defined in common.gradle
+        packageList.each {
+            pickFirst it
+        }
+    }
+
+    android.compileOptions {
+        sourceCompatibility javaVersion
+        targetCompatibility javaVersion
+    }
+}
+
+configurations.all {
+  resolutionStrategy {
+    cacheDynamicVersionsFor(0, 'seconds')
+    cacheChangingModulesFor(0, 'seconds')
+  }
+}
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+
+    if (libraryProjectPath.exists() && gradle.useLocal) { // Local project is favoured
+        compile project(libraryProjectName)
+    } else {
+        releaseCompile(group: groupId, name: libraryArtifactName,
+                version: libraryRelease, ext: 'aar')
+        snapshotCompile(group: groupId, name: libraryArtifactName,
+                version: (useLatestLibrary ? latestVersion : librarySnapshot), ext: 'aar')
+        debugCompile(group: groupId, name: libraryArtifactName,
+                version: (useLatestLibrary ? latestVersion : librarySnapshot), ext: 'aar')
+    }
+
+    if (playServicesPath.exists() && gradle.useLocal) { // Local project is favoured
+        compile project(playServicesName)
+    } else {
+        releaseCompile(group: groupId, name: playServicesArtifactName,
+                version: playServicesRelease, ext: 'aar')
+        snapshotCompile(group: groupId, name: playServicesArtifactName,
+                version: (useLatestPlayServices ? latestVersion : playServicesSnapshot), ext: 'aar')
+        debugCompile(group: groupId, name: playServicesArtifactName,
+                version: (useLatestLibrary ? latestVersion : playServicesSnapshot), ext: 'aar')
+    }
+
+    // Testing dependencies
+    testCompile 'junit:junit:4.12'
+}
