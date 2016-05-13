@@ -1,0 +1,4 @@
+See file:///Users/apple/Documents/odk/scan/scan_core/build/tmp/createScan_coreArmeabiDebugStaticLibrary/output.txt for all output for createScan_coreArmeabiDebugStaticLibrary.
+archiving libscan_core.a successful.
+
+Finished createScan_coreArmeabiDebugStaticLibrary, see full log file:///Users/apple/Documents/odk/scan/scan_core/build/tmp/createScan_coreArmeabiDebugStaticLibrary/output.txt.

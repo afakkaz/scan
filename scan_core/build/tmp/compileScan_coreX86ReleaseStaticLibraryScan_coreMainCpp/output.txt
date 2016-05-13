@@ -1,0 +1,242 @@
+See file:///Users/apple/Documents/odk/scan/scan_core/build/tmp/compileScan_coreX86ReleaseStaticLibraryScan_coreMainCpp/output.txt for all output for compileScan_coreX86ReleaseStaticLibraryScan_coreMainCpp.
+compiling ODKScan.cpp successful.
+
+compiling json_writer.cpp successful.
+
+compiling json_value.cpp successful.
+
+compiling Addons.cpp successful.
+
+compiling json_reader.cpp successful.
+
+compiling FileUtils.cpp successful.
+
+compiling digitfeatures.cpp successful.
+
+compiling Aligner.cpp successful.
+
+compiling PixelStats.cpp successful.
+
+compiling NumberClassifier.cpp successful.
+
+compiling AlignmentUtils.cpp successful.
+
+compiling PCA_classifier.cpp successful.
+
+compiling SegmentAligner.cpp successful.
+
+compiling two_layer_mlp.cpp successful.
+
+compiling StatCollector.cpp successful.
+
+compiling main.cpp successful.
+
+compiling ImageReaderSource.cpp successful.
+
+compiling BigInteger.cc successful.
+
+compiling BigIntegerAlgorithms.cc successful.
+
+compiling BigIntegerUtils.cc successful.
+
+compiling BigUnsigned.cc successful.
+
+compiling Processor.cpp successful.
+
+compiling BigUnsignedInABase.cc successful.
+
+compiling AztecDetectorResult.cpp successful.
+
+compiling AztecReader.cpp successful.
+
+compiling Decoder.cpp successful.
+
+compiling BarcodeFormat.cpp successful.
+
+compiling Binarizer.cpp successful.
+
+compiling BinaryBitmap.cpp successful.
+
+compiling ChecksumException.cpp successful.
+
+compiling jpgd.cpp successful.
+
+compiling BitArrayIO.cpp successful.
+
+compiling BitArray.cpp successful.
+
+compiling BitSource.cpp successful.
+
+compiling Detector.cpp successful.
+
+compiling BitMatrix.cpp successful.
+
+compiling DecoderResult.cpp successful.
+
+compiling lodepng.cpp successful.
+
+compiling CharacterSetECI.cpp successful.
+
+compiling MonochromeRectangleDetector.cpp successful.
+
+compiling DetectorResult.cpp successful.
+
+compiling GreyscaleLuminanceSource.cpp successful.
+
+compiling WhiteRectangleDetector.cpp successful.
+
+compiling GlobalHistogramBinarizer.cpp successful.
+
+compiling GreyscaleRotatedLuminanceSource.cpp successful.
+
+compiling IllegalArgumentException.cpp successful.
+
+compiling GridSampler.cpp successful.
+
+compiling PerspectiveTransform.cpp successful.
+
+compiling HybridBinarizer.cpp successful.
+
+compiling ReedSolomonException.cpp successful.
+
+compiling GenericGF.cpp successful.
+
+compiling Str.cpp successful.
+
+compiling StringUtils.cpp successful.
+
+compiling GenericGFPoly.cpp successful.
+
+compiling DataMatrixReader.cpp successful.
+
+compiling ReedSolomonDecoder.cpp successful.
+
+compiling BitMatrixParser.cpp successful.
+
+compiling DataBlock.cpp successful.
+
+compiling CornerPoint.cpp successful.
+
+compiling DetectorException.cpp successful.
+
+compiling Decoder.cpp successful.
+
+compiling DecodedBitStreamParser.cpp successful.
+
+compiling Exception.cpp successful.
+
+compiling DecodeHints.cpp successful.
+
+compiling FormatException.cpp successful.
+
+compiling InvertedLuminanceSource.cpp successful.
+
+compiling LuminanceSource.cpp successful.
+
+compiling Version.cpp successful.
+
+compiling ByQuadrantReader.cpp successful.
+
+compiling MultipleBarcodeReader.cpp successful.
+
+compiling MultiDetector.cpp successful.
+
+compiling GenericMultipleBarcodeReader.cpp successful.
+
+compiling QRCodeMultiReader.cpp successful.
+
+compiling MultiFormatReader.cpp successful.
+
+compiling Detector.cpp successful.
+
+compiling CodaBarReader.cpp successful.
+
+compiling Code128Reader.cpp successful.
+
+compiling MultiFinderPatternFinder.cpp successful.
+
+compiling Code39Reader.cpp successful.
+
+compiling EAN8Reader.cpp successful.
+
+compiling Code93Reader.cpp successful.
+
+compiling EAN13Reader.cpp successful.
+
+compiling MultiFormatOneDReader.cpp successful.
+
+compiling OneDReader.cpp successful.
+
+compiling MultiFormatUPCEANReader.cpp successful.
+
+compiling ITFReader.cpp successful.
+
+compiling OneDResultPoint.cpp successful.
+
+compiling UPCAReader.cpp successful.
+
+compiling UPCEReader.cpp successful.
+
+compiling BitMatrixParser.cpp successful.
+
+compiling UPCEANReader.cpp successful.
+
+compiling Decoder.cpp successful.
+
+compiling ModulusGF.cpp successful.
+
+compiling DecodedBitStreamParser.cpp successful.
+
+compiling ErrorCorrection.cpp successful.
+
+compiling ModulusPoly.cpp successful.
+
+compiling PDF417Reader.cpp successful.
+
+compiling BitMatrixParser.cpp successful.
+
+compiling DataBlock.cpp successful.
+
+compiling Detector.cpp successful.
+
+compiling DataMask.cpp successful.
+
+compiling Decoder.cpp successful.
+
+compiling Mode.cpp successful.
+
+compiling AlignmentPattern.cpp successful.
+
+compiling DecodedBitStreamParser.cpp successful.
+
+compiling FinderPattern.cpp successful.
+
+compiling AlignmentPatternFinder.cpp successful.
+
+compiling FinderPatternInfo.cpp successful.
+
+compiling ErrorCorrectionLevel.cpp successful.
+
+compiling Detector.cpp successful.
+
+compiling FormatInformation.cpp successful.
+
+compiling QRCodeReader.cpp successful.
+
+compiling Reader.cpp successful.
+
+compiling LinesSampler.cpp successful.
+
+compiling ResultIO.cpp successful.
+
+compiling Result.cpp successful.
+
+compiling ResultPointCallback.cpp successful.
+
+compiling ResultPoint.cpp successful.
+
+compiling FinderPatternFinder.cpp successful.
+
+compiling Version.cpp successful.
+
+Finished compileScan_coreX86ReleaseStaticLibraryScan_coreMainCpp, see full log file:///Users/apple/Documents/odk/scan/scan_core/build/tmp/compileScan_coreX86ReleaseStaticLibraryScan_coreMainCpp/output.txt.
